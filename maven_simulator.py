@@ -11,13 +11,13 @@ import random
 
 # Configure page
 st.set_page_config(
-    page_title="Maven SPX Market Making Simulator",
+    page_title="Maven Securities SPX Market Making Simulator",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS for Maven branding
+# Custom CSS for Maven Securities branding
 st.markdown("""
 <style>
     /* Main header styling */
@@ -94,10 +94,10 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# Professional Header for Maven
+# Professional Header for Maven Securities
 st.markdown("""
 <div class="main-header">
-    <h1>📊 MAVEN TRADING</h1>
+    <h1>📊 MAVEN SECURITIES</h1>
     <p>SPX Options Market Making Simulator | Built by Muchiri Kahwai</p>
     <p style="font-size: 1rem; margin-top: 1rem;">
         <strong>Demonstrating:</strong> SPX Options Pricing • CBOE Pit Trading • Operational Tools Development
@@ -110,7 +110,7 @@ st.markdown("### 📋 About This Application")
 
 st.info("""
 **SPX Options Market Making Simulator** - Demonstrating quantitative finance and operational tools development 
-relevant to Maven Trading's **Junior Trader** position focused on SPX options in the CBOE pit.
+relevant to Maven Securities's **Junior Trader** position focused on SPX options in the CBOE pit.
 """)
 
 st.markdown("**Key Features:**")
@@ -123,12 +123,12 @@ st.markdown("""
 """)
 
 st.warning("""
-**⚠️ Disclaimer:** This application is **not affiliated with or property of Maven Trading**. 
+**⚠️ Disclaimer:** This application is **not affiliated with or property of Maven Securities**. 
 It was independently developed by Muchiri Kahwai to showcase quantitative finance and programming skills 
 for consideration in the **Junior Trader** role. All market data is simulated for demonstration purposes.
 """)
 
-st.caption("*Built with Python, Streamlit, NumPy, Pandas, and Plotly • Operational tools focus for Maven Trading*")
+st.caption("*Built with Python, Streamlit, NumPy, Pandas, and Plotly • Operational tools focus for Maven Securities*")
 
 st.markdown("---")
 
@@ -798,7 +798,7 @@ if st.sidebar.button("🔄 Refresh SPX Data", use_container_width=True):
 # Enhanced Footer
 st.markdown("""
 <div class="footer">
-    <h4>📊 MAVEN TRADING SPX MARKET MAKING SIMULATOR</h4>
+    <h4>📊 MAVEN SECURITIES SPX MARKET MAKING SIMULATOR</h4>
     <p><strong>Built by Muchiri Kahwai</strong> | Demonstrating SPX Options Trading & Operational Tools</p>
     <p style="font-size: 0.9rem; margin-top: 0.5rem;">
         <em>Featuring: SPX Index Options • CBOE Pit Trading • Risk Management • Operational Analytics</em>
